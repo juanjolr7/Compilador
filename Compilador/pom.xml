@@ -11,4 +11,12 @@
         <maven.compiler.target>22</maven.compiler.target>
         <exec.mainClass>com.mycompany.compilador.Compilador</exec.mainClass>
     </properties>
+    <dependencies>
+    <!-- https://mvnrepository.com/artifact/de.jflex/jflex -->
+    <dependency>
+        <groupId>de.jflex</groupId>
+        <artifactId>jflex</artifactId>
+        <version>1.9.1</version>
+    </dependency>
+    </dependencies>
 </project>
